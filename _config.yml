@@ -1,0 +1,19 @@
+# GitHub Pages configuration for Warrior OS PWA
+title: Warrior OS
+description: Combat Dominance Protocol — Personal Discipline OS
+theme: null
+
+# Serve all files including .js and .json
+include:
+  - sw.js
+  - manifest.json
+  - icons/
+
+# Don't use Jekyll processing on these files
+exclude:
+  - README.md
+  - .gitignore
+
+# Ensure service worker is served with correct headers
+# (GitHub Pages serves with correct MIME types by default)
+plugins: []
